@@ -28,7 +28,7 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <!-- <canvas className="clear-day" height="200" width="200"></canvas> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +39,35 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <div class="currentWeatherIcon">
+      <canvas id="currentWeatherIcon" class="" height="120" width="120"></canvas>
+    </div>
+
+    <div class="day1WeatherIcon">
+      <canvas id="day1WeatherIcon" class="" height="75" width="75"></canvas>
+    </div>
+
+    <div class="day2WeatherIcon">
+      <canvas id="day2WeatherIcon" class="" height="75" width="75"></canvas>
+    </div>
+
+    <div class="day3WeatherIcon">
+      <canvas id="day3WeatherIcon" class="" height="75" width="75"></canvas>
+    </div>
+
+    <div class="day4WeatherIcon">
+      <canvas id="day4WeatherIcon" class="" height="75" width="75"></canvas>
+    </div>
+
+    <div class="day5WeatherIcon">
+      <canvas id="day5WeatherIcon" class="" height="75" width="75"></canvas>
+    </div>
+
+    <div class="day6WeatherIcon">
+      <canvas id="day6WeatherIcon" class="" height="75" width="75"></canvas>
+    </div>
+
+    <div id="root"></div>
   </body>
 </html>
