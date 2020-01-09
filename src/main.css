@@ -70,6 +70,7 @@ body {
 .hour {
     height: 30px;
     font-size: 18px;
+    letter-spacing: -1px;
     background-color: black;
 }
 
@@ -197,7 +198,7 @@ body {
 .mainTemp {
     position: absolute;
     top: 30px;
-    right: 325px;
+    right: 280px;
     font-size: 75px;
     
 }
@@ -218,13 +219,13 @@ body {
 .currentHighLow {
     position: absolute;
     top: 30px;
-    right: 140px;
+    right: 130px;
     font-size: 30px;
 }
 
 .otherWeatherInfo {
     position: absolute;
     top: 65px;
-    right: 70px;
+    right: 60px;
     font-size: 20px;
 }
