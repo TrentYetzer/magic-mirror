@@ -2,8 +2,9 @@
 For more experience and the ability to fully customize my magic mirror, this project was created.
 
 ### Modules
--Skycons
--Moment
+- Skycons 
+
+- Moment 
 
 ### Dark Sky Api
 The api key was ommited from the Weather.js file, and therefore, a valid dark sky api key must be 
