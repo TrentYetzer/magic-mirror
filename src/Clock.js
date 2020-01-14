@@ -1,7 +1,6 @@
-import React from 'react';
-import './main.css';
-import moment from 'moment';
-
+import React from "react";
+import "./main.css";
+import moment from "moment";
 
 class Clock extends React.Component {
   constructor(props) {
@@ -12,7 +11,7 @@ class Clock extends React.Component {
       second: moment().format("ss"),
       day: moment().format("dddd"),
       date: moment().format("LL")
-    }
+    };
   }
 
   tick() {
@@ -22,13 +21,11 @@ class Clock extends React.Component {
       second: moment().format("ss"),
       day: moment().format("dddd"),
       date: moment().format("LL")
-    })
+    });
   }
 
   componentDidMount() {
-    this.intervalID = setInterval(
-      () => this.tick(), 1000
-    );
+    this.intervalID = setInterval(() => this.tick(), 1000);
   }
 
   componentWillUnmount() {
@@ -39,7 +36,7 @@ class Clock extends React.Component {
     return (
       <div className="time-date-container">
         <div className="time">
-          {this.state.hour}:{this.state.minute}    
+          {this.state.hour}:{this.state.minute}
           <span className="seconds"> {this.state.second} </span>
         </div>
         <div className="date">
@@ -49,6 +46,5 @@ class Clock extends React.Component {
     );
   }
 }
-
 
 export default Clock;
