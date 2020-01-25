@@ -269,3 +269,33 @@ body {
   right: 45px;
   font-size: 20px;
 }
+
+.todo-container {
+  position: absolute;
+  margin: 25px;
+  left: 0px;
+  top: 220px;
+  display: grid;
+  grid-template-areas: 400px;
+  max-width: 355px;
+  background-color: white;
+  grid-gap: 2px;
+  padding: 5px;
+}
+
+.todo-container > form {
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+
+.todo {
+  position: absolute;
+  top: 220px;
+}
+
+.list {
+  position: absolute;
+  top: 350px;
+  left: 15px;
+}

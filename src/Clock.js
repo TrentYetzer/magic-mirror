@@ -1,26 +1,26 @@
-import React from "react";
-import "./main.css";
-import moment from "moment";
+import React from 'react';
+import './main.css';
+import moment from 'moment';
 
 class Clock extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      hour: moment().format("HH"),
-      minute: moment().format("mm"),
-      second: moment().format("ss"),
-      day: moment().format("dddd"),
-      date: moment().format("LL")
+      hour: moment().format('HH'),
+      minute: moment().format('mm'),
+      second: moment().format('ss'),
+      day: moment().format('dddd'),
+      date: moment().format('LL'),
     };
   }
 
   tick() {
     this.setState({
-      hour: moment().format("HH"),
-      minute: moment().format("mm"),
-      second: moment().format("ss"),
-      day: moment().format("dddd"),
-      date: moment().format("LL")
+      hour: moment().format('HH'),
+      minute: moment().format('mm'),
+      second: moment().format('ss'),
+      day: moment().format('dddd'),
+      date: moment().format('LL'),
     });
   }
 
