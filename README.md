@@ -1,5 +1,7 @@
 # Custom Magic Mirror Project
 For more experience and the ability to fully customize my magic mirror, this project was created.
+A picture of the mirror is missing here, but the the materials used were a wooden frame, 
+70/30 acrylic mirror, 24" tv, and a raspberry pi 3 A+.
 
 ### Modules
 - Skycons 
